@@ -1,5 +1,26 @@
 #master-menu-container {
 	background-color: $clrBackgrBlackTrans;
-	width: 100px;
+	width: 80px;
 	height: 100%;
+}
+
+.master-menu-li {
+
+	display:block;
+	list-style-type: none;
+    padding-left: 7px;
+	padding-right: 7px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+	margin:0px;
+}
+
+.master-menu-li:hover {
+	background-color: $clrSelectionHover;
+	cursor:pointer;
+}
+
+.disabled-icon {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
 }

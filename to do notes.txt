@@ -1,1 +1,7 @@
-After that I'm trying to create a module to store this resize function in and call it in main.jsx
+Ok, I figured out how to call a component inside another component with my menu. Also with that hack inside the Image component I found. 
+I wont use that for the the menu, but maybe for other images.
+
+Now I need to make the main menu and log in page. 	
+
+Then I need to make the overview page. First with dummy text, and then something that uses mongoDB. 
+Then make the navigation work, with over showing preview, and clicking commiting to it.
