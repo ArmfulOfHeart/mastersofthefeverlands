@@ -17,9 +17,17 @@
 */
 @import '{}/imports/ui/scss/_game-frame.scss';
 @import '{}/imports/ui/scss/_master-menu.scss';
+@import '{}/imports/ui/scss/_main-menu.scss';
 
 body {
 	background-color: $clrBodyFill;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color:$clrLightTrans;
+	margin:3px;
 }
 
 .center {
