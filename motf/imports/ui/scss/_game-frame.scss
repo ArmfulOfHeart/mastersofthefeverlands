@@ -1,0 +1,14 @@
+#game-frame {
+  display: flex;
+	width:1920px;
+	height:1080px;
+	position:relative;
+	background-color:$clrBackgrDark;
+	background-image:url('/corner-art/general-corner.png');
+	background-repeat:no-repeat;
+	background-position: bottom right;
+
+}
+/*
+need to remove the background image properties, that goes in different component.
+*/

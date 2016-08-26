@@ -1,0 +1,36 @@
+///////////Zeroing Out Default Formatting///////////
+////////////////////////////////////////////////////
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Fenix);
+
+/*Utility
+*/
+@import '{}/imports/ui/scss/_variables.scss';
+@import '{}/imports/ui/scss/_styleZeroing.scss';
+
+/*Major Components
+*/
+@import '{}/imports/ui/scss/_game-frame.scss';
+@import '{}/imports/ui/scss/_master-menu.scss';
+
+body {
+	background-color: $clrBodyFill;
+}
+
+.center {
+	margin:auto;
+}
+
+.right {
+	position:absolute;
+	right:0;
+}
+
+#content-frame {
+	flex: 1;
+}

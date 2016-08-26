@@ -1,0 +1,1 @@
+After that I'm trying to create a module to store this resize function in and call it in main.jsx
